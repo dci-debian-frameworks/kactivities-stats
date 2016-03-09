@@ -1,0 +1,51 @@
+Source: kactivities-stats
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libboost-dev (>= 1.49~),
+               libkf5activities-dev,
+               libkf5config-dev,
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/frameworks/kactivities-stats
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kactivities-stats.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kactivities-stats.git
+
+Package: libkf5activitiesstats-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5activitiesstats5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4),
+         ${misc:Depends}
+Description: development files for kactivities-stats.
+ A library for accessing the usage data collected by the activities system.
+ .
+ Contains development files for kactivities-stats.
+
+Package: libkf5activitiesstats5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: usage data collected by the activities system
+ A library for accessing the usage data collected by the activities
+ system.
+ .
+ Contains development files for kactivities-stats.
+
+Package: libkf5activitiesstats5-dbg
+Architecture: any
+Multi-arch: same
+Priority: extra
+Section: debug
+Depends: libkf5activitiesstats5 (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: debug symbols for kactivities-stats
+ A library for accessing the usage data collected by the activities
+ system.
+ .
+ Contains debug symbols for kactivitiesstats.
