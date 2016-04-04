@@ -13,8 +13,8 @@ Build-Depends: cmake (>= 2.8.11~),
                qtdeclarative5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kactivities-stats
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kactivities-stats.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kactivities-stats.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kactivities-stats.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kactivities-stats.git
 
 Package: libkf5activitiesstats-dev
 Section: libdevel
