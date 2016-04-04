@@ -2,15 +2,16 @@
 <descriptor>
 
 <version>
-    5.2.0
+    5.20.0
 </version>
 
 <headers>
-    /usr/include/KF5/KActivities/
+    /usr/include/KF5/KActivitiesStats/
+    /usr/include/KF5/kactivitiesstats_version.h
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5Activities.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5ActivitiesStats.so
 </libs>
 
 <gcc_options>
