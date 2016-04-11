@@ -19,7 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kactivities-stats.git
 Package: libkf5activitiesstats-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5activitiesstats5 (= ${binary:Version}),
+Depends: libkf5activitiesstats1 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for kactivities-stats.
@@ -27,7 +27,7 @@ Description: development files for kactivities-stats.
  .
  Contains development files for kactivities-stats.
 
-Package: libkf5activitiesstats5
+Package: libkf5activitiesstats1
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
