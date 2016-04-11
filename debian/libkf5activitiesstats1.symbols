@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 5.20 amd64
-libKF5ActivitiesStats.so.5 libkf5activitiesstats5 #MINVER#
+# SymbolsHelper-Confirmed: 5.21.0 amd64
+libKF5ActivitiesStats.so.1 libkf5activitiesstats1 #MINVER#
  _ZN11KActivities5Stats11ResultModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.20
  _ZN11KActivities5Stats11ResultModel11qt_metacastEPKc@Base 5.20
  _ZN11KActivities5Stats11ResultModel14forgetResourceERK7QString@Base 5.20
@@ -18,8 +18,6 @@ libKF5ActivitiesStats.so.5 libkf5activitiesstats5 #MINVER#
  _ZN11KActivities5Stats11ResultModelD0Ev@Base 5.20
  _ZN11KActivities5Stats11ResultModelD1Ev@Base 5.20
  _ZN11KActivities5Stats11ResultModelD2Ev@Base 5.20
- _ZN11KActivities5Stats12versionMajorEv@Base 5.20
- _ZN11KActivities5Stats12versionMinorEv@Base 5.20
  _ZN11KActivities5Stats13ResultWatcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.20
  _ZN11KActivities5Stats13ResultWatcher11qt_metacastEPKc@Base 5.20
  _ZN11KActivities5Stats13ResultWatcher12resultLinkedERK7QString@Base 5.20
@@ -37,9 +35,7 @@ libKF5ActivitiesStats.so.5 libkf5activitiesstats5 #MINVER#
  _ZN11KActivities5Stats13ResultWatcherD0Ev@Base 5.20
  _ZN11KActivities5Stats13ResultWatcherD1Ev@Base 5.20
  _ZN11KActivities5Stats13ResultWatcherD2Ev@Base 5.20
- _ZN11KActivities5Stats13versionStringEv@Base 5.20
  _ZN11KActivities5Stats14forgetResourceENS0_5Terms8ActivityENS1_5AgentERK7QString@Base 5.20
- _ZN11KActivities5Stats14versionReleaseEv@Base 5.20
  _ZN11KActivities5Stats15forgetResourcesERKNS0_5QueryE@Base 5.20
  _ZN11KActivities5Stats17forgetRecentStatsENS0_5Terms8ActivityEiNS0_8TimeUnitE@Base 5.20
  _ZN11KActivities5Stats18forgetEarlierStatsENS0_5Terms8ActivityEi@Base 5.20
@@ -96,7 +92,6 @@ libKF5ActivitiesStats.so.5 libkf5activitiesstats5 #MINVER#
  _ZN11KActivities5Stats5Terms8ActivityC1E7QString@Base 5.20
  _ZN11KActivities5Stats5Terms8ActivityC2E11QStringList@Base 5.20
  _ZN11KActivities5Stats5Terms8ActivityC2E7QString@Base 5.20
- _ZN11KActivities5Stats7versionEv@Base 5.20
  _ZN11KActivities5Stats9ResultSet14const_iteratorC1EPKS1_i@Base 5.20
  _ZN11KActivities5Stats9ResultSet14const_iteratorC1ERKS2_@Base 5.20
  _ZN11KActivities5Stats9ResultSet14const_iteratorC1Ev@Base 5.20
