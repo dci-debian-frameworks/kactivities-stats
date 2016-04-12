@@ -1,6 +1,6 @@
-kactivities-stats (5.21.0-2~~2.gbpecc4b7) UNRELEASED; urgency=medium
+kactivities-stats (5.21.0-2~~3.gbpb9b3db) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ecc4b7ac515da31539d4cf3686d88db7674f0d81 **
+  ** SNAPSHOT build @b9b3db49f72e37ae5af958cafdd38f0b953a4c01 **
 
   [ Jonathan Riddell ]
   * Initial package
@@ -12,4 +12,7 @@ kactivities-stats (5.21.0-2~~2.gbpecc4b7) UNRELEASED; urgency=medium
   * acc test: Use C++11
   * Add a human maintainer
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 12 Apr 2016 10:51:39 +0200
+  [ Mark headers hook ]
+  * Mark private headers
+
+ -- Mark headers hook <maxy+mark_private_symbols@gnuservers.com.ar>  Tue, 12 Apr 2016 14:32:11 +0200
