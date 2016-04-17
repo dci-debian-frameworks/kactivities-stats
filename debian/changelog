@@ -1,6 +1,6 @@
-kactivities-stats (5.21.0-2~~3.gbpb9b3db) UNRELEASED; urgency=medium
+kactivities-stats (5.21.0-2~~4.gbp157227) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b9b3db49f72e37ae5af958cafdd38f0b953a4c01 **
+  ** SNAPSHOT build @157227e931e482b1471d6ce731528b91677eb3e3 **
 
   [ Jonathan Riddell ]
   * Initial package
@@ -15,4 +15,8 @@ kactivities-stats (5.21.0-2~~3.gbpb9b3db) UNRELEASED; urgency=medium
   [ Mark headers hook ]
   * Mark private headers
 
- -- Mark headers hook <maxy+mark_private_symbols@gnuservers.com.ar>  Tue, 12 Apr 2016 14:32:11 +0200
+  [ Automatic packaging ]
+  * Revert the mark private symbols
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 12:02:26 +0200
