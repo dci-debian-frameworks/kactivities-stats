@@ -1,3 +1,9 @@
+kactivities-stats (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, xenial backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 14:55:43 -0700
+
 kactivities-stats (5.21.0-2~~1.gbpc5f84c) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @c5f84c20fe6b9e4d9974313d8bcd9ce5e9977ed4 **
