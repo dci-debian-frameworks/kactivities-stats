@@ -1,6 +1,7 @@
-kactivities-stats (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
+kactivities-stats (5.21.0-2ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, xenial backport.
+  * adjust depend in hopes build can find it. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 14:55:43 -0700
 
