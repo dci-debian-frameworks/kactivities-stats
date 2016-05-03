@@ -1,11 +1,19 @@
+kactivities-stats (5.21.0-2~~1.gbpc5f84c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c5f84c20fe6b9e4d9974313d8bcd9ce5e9977ed4 **
+
+  [ Jonathan Riddell ]
+  * Initial package
+
+  [ Maximiliano Curia ]
+  * Change library soversion
+  * debian/copyright fixing some of the wrongly tweaked parts
+  * Update the symbols file
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 11 Apr 2016 23:11:19 +0200
 kactivities-stats (5.21.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:21:39 +0000
 
-kactivities-stats (5.20.0-0) UNRELEASED; urgency=medium
-
-  * Initial package
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 09 Mar 2016 12:09:01 +0000
