@@ -1,6 +1,6 @@
-kactivities-stats (5.21.0-2~~4.gbp157227) UNRELEASED; urgency=medium
+kactivities-stats (5.22.0-1~1.gbp8f2405) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @157227e931e482b1471d6ce731528b91677eb3e3 **
+  ** SNAPSHOT build @8f2405978fcb2b2554366a4b3a4f276933896874 **
 
   [ Jonathan Riddell ]
   * Initial package
@@ -18,5 +18,6 @@ kactivities-stats (5.21.0-2~~4.gbp157227) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Revert the mark private symbols
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 12:02:26 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:30:10 +0200
