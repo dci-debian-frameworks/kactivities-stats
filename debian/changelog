@@ -1,6 +1,6 @@
-kactivities-stats (5.22.0-1~1.gbp8f2405) UNRELEASED; urgency=medium
+kactivities-stats (5.22.0-1~2.gbpcf8159) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8f2405978fcb2b2554366a4b3a4f276933896874 **
+  ** SNAPSHOT build @cf815906de679780aa4af34031434398a0ecf707 **
 
   [ Jonathan Riddell ]
   * Initial package
@@ -20,4 +20,7 @@ kactivities-stats (5.22.0-1~1.gbp8f2405) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:30:10 +0200
+  [ Harald Sitter ]
+  * fix copyright syntax
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 18 May 2016 12:30:17 +0200
