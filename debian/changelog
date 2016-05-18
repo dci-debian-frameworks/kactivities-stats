@@ -1,6 +1,6 @@
-kactivities-stats (5.21.0-2~~1.gbpc5f84c) UNRELEASED; urgency=medium
+kactivities-stats (5.22.0-1~1.gbp8f2405) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c5f84c20fe6b9e4d9974313d8bcd9ce5e9977ed4 **
+  ** SNAPSHOT build @8f2405978fcb2b2554366a4b3a4f276933896874 **
 
   [ Jonathan Riddell ]
   * Initial package
@@ -9,5 +9,15 @@ kactivities-stats (5.21.0-2~~1.gbpc5f84c) UNRELEASED; urgency=medium
   * Change library soversion
   * debian/copyright fixing some of the wrongly tweaked parts
   * Update the symbols file
+  * acc test: Use C++11
+  * Add a human maintainer
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 11 Apr 2016 23:11:19 +0200
+  [ Mark headers hook ]
+  * Mark private headers
+
+  [ Automatic packaging ]
+  * Revert the mark private symbols
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:30:10 +0200
