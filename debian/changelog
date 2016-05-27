@@ -1,6 +1,4 @@
-kactivities-stats (5.22.0-1~2.gbpcf8159) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @cf815906de679780aa4af34031434398a0ecf707 **
+kactivities-stats (5.22.0-1) experimental; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package
@@ -23,4 +21,4 @@ kactivities-stats (5.22.0-1~2.gbpcf8159) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * fix copyright syntax
 
- -- Harald Sitter <sitter@kde.org>  Wed, 18 May 2016 12:30:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 11:03:11 +0200
