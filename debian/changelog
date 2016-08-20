@@ -1,11 +1,9 @@
-kactivities-stats (5.25.0-1~1.gbp56bd9d) UNRELEASED; urgency=medium
+kactivities-stats (5.25.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @56bd9d9f79a5764dc7daf4cb2ad6a8153966dba3 **
-
-  * Update build-deps and deps with the info from cmake
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 11:30:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:50:39 +0200
 
 kactivities-stats (5.23.0-1) unstable; urgency=medium
 
