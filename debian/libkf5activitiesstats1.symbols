@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 armel
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5ActivitiesStats.so.1 libkf5activitiesstats1 #MINVER#
  _ZN11KActivities5Stats11ResultModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.20
  _ZN11KActivities5Stats11ResultModel11qt_metacastEPKc@Base 5.20
@@ -112,6 +112,7 @@ libKF5ActivitiesStats.so.1 libkf5activitiesstats1 #MINVER#
  _ZN11KActivities5Stats9ResultSet6Result13setLastUpdateEj@Base 5.20
  _ZN11KActivities5Stats9ResultSet6Result13setLinkStatusENS2_10LinkStatusE@Base 5.20
  _ZN11KActivities5Stats9ResultSet6Result14setFirstUpdateEj@Base 5.20
+ _ZN11KActivities5Stats9ResultSet6Result19setLinkedActivitiesE11QStringList@Base 5.35.0
  _ZN11KActivities5Stats9ResultSet6Result8setScoreEd@Base 5.20
  _ZN11KActivities5Stats9ResultSet6Result8setTitleE7QString@Base 5.20
  _ZN11KActivities5Stats9ResultSet6ResultC1EOS2_@Base 5.20
@@ -168,6 +169,7 @@ libKF5ActivitiesStats.so.1 libkf5activitiesstats1 #MINVER#
  _ZNK11KActivities5Stats9ResultSet6Result10lastUpdateEv@Base 5.20
  _ZNK11KActivities5Stats9ResultSet6Result10linkStatusEv@Base 5.20
  _ZNK11KActivities5Stats9ResultSet6Result11firstUpdateEv@Base 5.20
+ _ZNK11KActivities5Stats9ResultSet6Result16linkedActivitiesEv@Base 5.35.0
  _ZNK11KActivities5Stats9ResultSet6Result5scoreEv@Base 5.20
  _ZNK11KActivities5Stats9ResultSet6Result5titleEv@Base 5.20
  _ZNK11KActivities5Stats9ResultSet6Result8mimetypeEv@Base 5.20
@@ -188,6 +190,7 @@ libKF5ActivitiesStats.so.1 libkf5activitiesstats1 #MINVER#
  (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceIN11KActivities8ConsumerESaIS1_ELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 5.20
  (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceIN11KActivities8ConsumerESaIS1_ELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 5.20
  (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceIN11KActivities8ConsumerESaIS1_ELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 5.20
+ (optional=templinst)_ZSt4swapIN11KActivities5Stats9ResultSet6ResultEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS7_EEE5valueEvE4typeERS7_SE_@Base 5.35.0
  _ZTIN11KActivities5Stats11ResultModelE@Base 5.20
  _ZTIN11KActivities5Stats13ResultWatcherE@Base 5.20
  (optional=gccinternal|arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 5.22.0
