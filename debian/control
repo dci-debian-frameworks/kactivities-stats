@@ -42,6 +42,7 @@ Description: usage data collected by the activities system
  system.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5activitiesstats1
 Architecture: any
