@@ -15,7 +15,7 @@ Build-Depends: cmake (>= 3.0~),
                pkg-kde-tools,
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev,
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kactivities-stats
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kactivities-stats.git
@@ -26,20 +26,10 @@ Section: libdevel
 Architecture: any
 Depends: libkf5activitiesstats1 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Recommends: libkf5activitiesstats-doc (= ${source:Version})
 Description: development files for kactivities-stats.
  A library for accessing the usage data collected by the activities system.
- .
- Contains development files for kactivities-stats.
-
-Package: libkf5activitiesstats1
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: usage data collected by the activities system
- A library for accessing the usage data collected by the activities
- system.
  .
  Contains development files for kactivities-stats.
 
@@ -52,3 +42,13 @@ Description: usage data collected by the activities system
  system.
  .
  This package contains the qch documentation files.
+
+Package: libkf5activitiesstats1
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: usage data collected by the activities system
+ A library for accessing the usage data collected by the activities
+ system.
+ .
+ Contains development files for kactivities-stats.
