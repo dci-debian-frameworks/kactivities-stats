@@ -48,6 +48,8 @@ Package: libkf5activitiesstats1
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libkf5activitiesstats5
+Replaces: libkf5activitiesstats5
 Description: usage data collected by the activities system
  A library for accessing the usage data collected by the activities
  system.
