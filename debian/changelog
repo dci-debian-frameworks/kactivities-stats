@@ -1,8 +1,10 @@
-kactivities-stats (5.41.0-1~) UNRELEASED; urgency=medium
+kactivities-stats (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 13:13:57 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:42:02 -0300
 
 kactivities-stats (5.41.0-0neon) xenial; urgency=medium
 
